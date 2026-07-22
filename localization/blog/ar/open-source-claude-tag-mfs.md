@@ -1,6 +1,7 @@
 ---
 id: open-source-claude-tag-mfs.md
-title: 'Open Tag: وسم Claude مفتوح المصدر لـ Claude Code وCodex'
+title: |
+  Open Tag: An Open-Source Claude Tag for Claude Code and Codex
 author: Cheney Zhang
 date: 2026-07-02T00:00:00.000Z
 cover: assets.zilliz.com/open_source_claude_tag_mfs_md_1_3b8acc2927.png
@@ -13,10 +14,10 @@ meta_keywords: >-
   retrieval, Claude Code, Codex, vector search, RAG
 meta_title: |
   Open Tag: An Open-Source Claude Tag on MFS
-desc: >-
-  وسم Claude مفتوح المصدر ومصمم للعمل أصليًا داخل Slack من أجل Claude Code
-  وCodex، مبني على MFS: واجهة واحدة قابلة للبحث والتصفح عبر الكود والوثائق
-  والتذاكر وقواعد البيانات الخاصة بك.
+desc: >
+  An open-source, Slack-native Claude Tag for Claude Code and Codex, built on
+  MFS: one searchable, browsable interface over your code, docs, tickets, and
+  databases.
 origin: 'https://milvus.io/blog/open-source-claude-tag-mfs.md'
 ---
 <p>A couple of days ago, Anthropic released <a href="https://www.anthropic.com/news/introducing-claude-tag">Claude Tag</a>: a persistent Claude that lives in Slack.</p>

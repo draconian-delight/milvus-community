@@ -1,6 +1,7 @@
 ---
 id: force-merge-compaction-milvus-qps.md
-title: Force Merge Compaction이 Milvus 검색 QPS를 거의 두 배로 높인 방법
+title: |
+  How Force Merge Compaction Nearly Doubled Milvus Search QPS
 author: Jack Li
 date: 2026-07-1
 cover: assets.zilliz.com/force_merge_compaction_milvus_qps_md_1_9a9b0a774a.png
@@ -13,9 +14,10 @@ meta_keywords: >-
   compaction, milvus HNSW
 meta_title: |
   Force Merge Compaction: Nearly 2x Milvus Search QPS
-desc: >-
-  Force Merge는 Milvus의 작은 sealed segment들을 더 적은 수의 더 큰 segment로 통합합니다. HNSW 인덱스가
-  적용된 100만 개 벡터에서 검색 QPS는 약 3,000에서 약 5,600~6,000으로 증가했습니다.
+desc: >
+  Force Merge consolidates Milvus's small sealed segments into fewer, larger
+  ones. On 1M vectors with an HNSW index, search QPS rose from ~3,000 to
+  ~5,600–6,000.
 origin: 'https://milvus.io/blog/force-merge-compaction-milvus-qps.md'
 ---
 <p><a href="https://milvus.io/docs/force-merge.md"><strong>Force Merge Compaction</strong></a> is a Milvus compaction option that consolidates a collection’s small sealed segments into fewer, larger ones. <strong>Under the right conditions — a collection that has</strong> become static and read-heavy, with many small, sealed segments — it can meaningfully increase <strong>search QPS</strong>.</p>
